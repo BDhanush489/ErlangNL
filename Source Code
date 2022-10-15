@@ -1,1 +1,6 @@
+-module(asd).
+-export([start/0,loop/1]).
 
+loop(N) ->
+    io:format("~w", [N]),
+    loop(N+1).
